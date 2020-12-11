@@ -1,0 +1,52 @@
+---
+title: "Mid-2"
+author: "Mahmuda Antora"
+date: "12/11/2020"
+output: word_document
+---
+
+```{r}
+getwd()
+setwd("C:/Users/Angelika/Desktop/M.Sc/Ast-504 Saima/Lecturer/Mid2")
+getwd()
+```
+```{r}
+dat<-read.csv("Mid2.csv")
+dat
+str(dat)
+```
+
+```{r}
+anova=aov(X1~Method,data = dat)
+anova
+```
+```{r}
+?cochran
+
+```
+```{r}
+install.packages("RVAideMemoire")
+```
+```{r}
+install.packages("metafor")
+```
+```{r}
+install.packages("psych")
+```
+```{r}
+install.packages("nonpar")
+```
+```{r}
+install.packages("coin")
+```
+```{r}
+install.packages("reshape2")
+```
+
+
+
+
+
+
+
+
